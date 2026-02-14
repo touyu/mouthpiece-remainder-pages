@@ -1,12 +1,12 @@
 # mouthpiece-remainder-pages
 
-アプリの利用規約・プライバシーポリシー・サポートページをホスティングするためのリポジトリ。
+Minderアプリの利用規約・プライバシーポリシー・サポートページをホスティングするためのリポジトリ。
 
 ## URL
 
-- プライバシーポリシー: https://touyu.me/mouthpiece-remainder-pages/privacy.html
-- 利用規約: https://touyu.me/mouthpiece-remainder-pages/terms.html
-- サポート: https://touyu.me/mouthpiece-remainder-pages/support.html
+- プライバシーポリシー: https://touyu.me/mouthpiece-remainder-pages/docs/privacy.html
+- 利用規約: https://touyu.me/mouthpiece-remainder-pages/docs/terms.html
+- サポート: https://touyu.me/mouthpiece-remainder-pages/docs/support.html
 
 ## ホスティング
 
@@ -16,13 +16,13 @@ GitHub Pagesを使用。
 
 ## Submodule
 
-このリポジトリは [mouthpiece-remainder](https://github.com/touyu/mouthpiece-remainder) に `pages/` ディレクトリとしてsubmodule追加されている。
+このリポジトリは [minder](https://github.com/touyu/minder) に `public/` ディレクトリとしてsubmodule追加されている。
 
 ### 編集方法
 
 ```bash
-# mouthpiece-remainder リポジトリ内で
-cd pages
+# minder リポジトリ内で
+cd public
 # ファイルを編集
 git add .
 git commit -m "Update pages"
@@ -30,8 +30,8 @@ git push
 
 # 親リポジトリに戻ってsubmoduleの参照を更新
 cd ..
-git add pages
-git commit -m "Update pages submodule"
+git add public
+git commit -m "Update public submodule"
 git push
 ```
 
@@ -40,7 +40,7 @@ git push
 親リポジトリをクローンする際はsubmoduleも取得する:
 
 ```bash
-git clone --recursive https://github.com/touyu/mouthpiece-remainder.git
+git clone --recursive https://github.com/touyu/minder.git
 ```
 
 または、クローン後に:
