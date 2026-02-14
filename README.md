@@ -4,9 +4,9 @@ Minderアプリの利用規約・プライバシーポリシー・サポート�
 
 ## URL
 
-- プライバシーポリシー: https://touyu.me/mouthpiece-remainder-pages/docs/privacy.html
-- 利用規約: https://touyu.me/mouthpiece-remainder-pages/docs/terms.html
-- サポート: https://touyu.me/mouthpiece-remainder-pages/docs/support.html
+- プライバシーポリシー: https://touyu.me/mouthpiece-remainder-pages/privacy
+- 利用規約: https://touyu.me/mouthpiece-remainder-pages/terms
+- サポート: https://touyu.me/mouthpiece-remainder-pages/support
 
 ## ホスティング
 
