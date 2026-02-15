@@ -92,6 +92,83 @@
             color: var(--text);
         }
 
+        /* ===== Language Selector ===== */
+        .lang-selector {
+            position: relative;
+        }
+
+        #lang-toggle {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: none;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        #lang-toggle:hover {
+            border-color: var(--text-secondary);
+            color: var(--text);
+        }
+
+        .lang-chevron {
+            transition: transform 0.2s;
+        }
+
+        #lang-toggle[aria-expanded="true"] .lang-chevron {
+            transform: rotate(180deg);
+        }
+
+        .lang-menu {
+            display: none;
+            position: absolute;
+            top: calc(100% + 8px);
+            right: 0;
+            min-width: 140px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 4px;
+            list-style: none;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .lang-menu.open {
+            display: block;
+        }
+
+        .lang-menu li button {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            padding: 8px 12px;
+            background: none;
+            border: none;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            text-align: left;
+        }
+
+        .lang-menu li button:hover {
+            background: var(--bg-elevated);
+            color: var(--text);
+        }
+
+        .lang-menu li button.active {
+            color: var(--accent);
+        }
+
         /* ===== Hero ===== */
         .hero {
             position: relative;
@@ -538,7 +615,14 @@
                 <li><a href="#how" data-i18n="nav.how"></a></li>
                 <li><a href="#pro" data-i18n="nav.pro"></a></li>
                 <li><a href="support.html" data-i18n="nav.support"></a></li>
-                <li><a href="#" id="lang-switch"></a></li>
+                <li class="lang-selector">
+                    <button id="lang-toggle" aria-expanded="false">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span id="lang-current"></span>
+                        <svg class="lang-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <ul id="lang-menu" class="lang-menu"></ul>
+                </li>
             </ul>
         </div>
     </nav>
@@ -742,15 +826,22 @@
 
     <script>
         (function () {
+            // Available languages — add new entries here to support more languages
+            var LANGS = [
+                { code: 'en', label: 'English' },
+                { code: 'ja', label: '日本語' }
+            ];
+
             // Determine language
             var stored = localStorage.getItem('lang');
             var lang = stored || (/^ja\b/.test(navigator.language) ? 'ja' : 'en');
+            // Ensure lang is valid
+            if (!LANGS.some(function (l) { return l.code === lang; })) lang = 'en';
 
             fetch('i18n/' + lang + '.json')
                 .then(function (r) { return r.json(); })
                 .then(apply)
                 .catch(function () {
-                    // Fallback to English if fetch fails
                     if (lang !== 'en') {
                         fetch('i18n/en.json').then(function (r) { return r.json(); }).then(apply);
                     }
@@ -785,13 +876,40 @@
                     return '<span class="lang-tag">' + tag + '</span>';
                 }).join('');
 
-                // Language switch link
-                var sw = document.getElementById('lang-switch');
-                sw.textContent = t.langSwitch.label;
-                sw.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    localStorage.setItem('lang', t.langSwitch.target);
-                    location.reload();
+                // Language selector
+                var current = LANGS.find(function (l) { return l.code === t.lang; });
+                document.getElementById('lang-current').textContent = current ? current.label : t.lang;
+
+                var toggle = document.getElementById('lang-toggle');
+                var menu = document.getElementById('lang-menu');
+
+                menu.innerHTML = LANGS.map(function (l) {
+                    var cls = l.code === t.lang ? ' class="active"' : '';
+                    return '<li><button data-lang="' + l.code + '"' + cls + '>' + l.label + '</button></li>';
+                }).join('');
+
+                toggle.addEventListener('click', function () {
+                    var open = menu.classList.toggle('open');
+                    toggle.setAttribute('aria-expanded', open);
+                });
+
+                menu.addEventListener('click', function (e) {
+                    var btn = e.target.closest('[data-lang]');
+                    if (!btn) return;
+                    var selected = btn.getAttribute('data-lang');
+                    if (selected !== t.lang) {
+                        localStorage.setItem('lang', selected);
+                        location.reload();
+                    }
+                    menu.classList.remove('open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                });
+
+                document.addEventListener('click', function (e) {
+                    if (!e.target.closest('.lang-selector')) {
+                        menu.classList.remove('open');
+                        toggle.setAttribute('aria-expanded', 'false');
+                    }
                 });
 
                 // Show content
