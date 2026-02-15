@@ -566,8 +566,14 @@
                 -webkit-backdrop-filter: none;
             }
 
-            .nav-links li:not(.lang-selector) {
+            .nav-links > li:not(.lang-selector) {
                 display: none;
+            }
+
+            .lang-menu.open {
+                position: fixed;
+                top: 48px;
+                right: 16px;
             }
 
             section {
