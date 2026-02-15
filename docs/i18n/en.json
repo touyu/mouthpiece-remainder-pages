@@ -1,0 +1,65 @@
+{
+  "lang": "en",
+  "nav": {
+    "features": "Features",
+    "how": "How It Works",
+    "pro": "Pro",
+    "support": "Support"
+  },
+  "hero": {
+    "badge": "iOS App for Aligner Users",
+    "title": "<span class=\"accent\">Never</span> forget again.",
+    "desc": "Track your aligner wear time effortlessly. One-tap logging and smart reminders help you stay on track with your orthodontic journey.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+  },
+  "features": {
+    "title": "Everything you need<br>for orthodontic success",
+    "desc": "From wear tracking to reminders and analytics. All the tools you need to manage your aligner journey in one place.",
+    "items": [
+      { "title": "One-Tap Tracking", "desc": "Log wearing and removal with a single tap. View your daily wear pattern on a timeline." },
+      { "title": "Smart Reminders", "desc": "Get notified when your aligners have been out too long. Snooze support ensures you put them back at the right time." },
+      { "title": "Statistics", "desc": "Visualize your wear habits with weekly and monthly charts. Track goal achievement and average removal time." },
+      { "title": "Schedule Management", "desc": "Automatically manage your aligner change schedule. Never miss your next switch date." },
+      { "title": "Widgets", "desc": "Check and toggle your wear status from the Home Screen or Lock Screen. Live Activities supported." },
+      { "title": "iCloud Backup", "desc": "Securely sync your data with iCloud. Seamlessly share data across multiple devices." }
+    ]
+  },
+  "how": {
+    "title": "Get started in 3 steps",
+    "desc": "Setup takes less than a minute. Start tracking right away.",
+    "steps": [
+      { "title": "Enter your orthodontic info", "desc": "Set your start date, total number of aligners, and change frequency. You can also enter which aligner you're currently on." },
+      { "title": "Start logging daily", "desc": "Just tap when you put in or take out your aligners. You can also use widgets, so you don't even need to open the app." },
+      { "title": "Stay on track with reminders", "desc": "Get automatic notifications when your aligners have been out too long. Build better wearing habits naturally." }
+    ]
+  },
+  "pro": {
+    "title": "Deeper insights,<br>flexible control",
+    "desc": "Unlock advanced statistics, customizable notifications, and more to support your orthodontic journey.",
+    "trial": "<strong>7-day free trial.</strong> Cancel anytime.",
+    "items": [
+      { "title": "Detailed Statistics", "desc": "Access in-depth data including average removal time and goal achievement days." },
+      { "title": "Advanced Notifications", "desc": "Set different alarm timings for different times of day. Morning, afternoon, and evening." },
+      { "title": "iCloud Backup", "desc": "Safely back up your data to iCloud. Automatically synced across devices." },
+      { "title": "Custom Schedules", "desc": "Customize wear days per aligner. Flexible management tailored to your orthodontic plan." }
+    ]
+  },
+  "languages": {
+    "title": "Available in 14 languages",
+    "desc": "Built for aligner users around the world.",
+    "tags": ["English", "Japanese", "Spanish", "French", "German", "Italian", "Korean", "Simplified Chinese", "Traditional Chinese", "Portuguese (BR)", "Portuguese (PT)", "Turkish", "Vietnamese", "Thai"]
+  },
+  "cta": {
+    "title": "Start tracking<br>today",
+    "desc": "Free to download. Make your orthodontic journey smarter."
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "support": "Support"
+  },
+  "langSwitch": {
+    "label": "JA",
+    "target": "ja"
+  }
+}
