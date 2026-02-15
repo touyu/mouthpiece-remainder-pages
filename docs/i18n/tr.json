@@ -1,0 +1,61 @@
+{
+  "lang": "tr",
+  "nav": {
+    "features": "Özellikler",
+    "how": "Nasıl Çalışır",
+    "pro": "Pro",
+    "support": "Destek"
+  },
+  "hero": {
+    "badge": "Şeffaf Plak Ortodonti Yönetim Uygulaması",
+    "title": "<span class=\"accent\">Bir daha</span> unutmayın.",
+    "desc": "Şeffaf plak takma sürenizi zahmetsizce takip edin. Tek dokunuşla kayıt ve akıllı hatırlatıcılar, ortodontik tedavinizde başarılı olmanıza yardımcı olur.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/tr-tr?size=250x83"
+  },
+  "features": {
+    "title": "Ortodontik başarı için<br>ihtiyacınız olan her şey",
+    "desc": "Takma süresini izlemekten hatırlatıcılara ve analizlere kadar. Şeffaf plak yolculuğunuzu yönetmek için ihtiyaç duyduğunuz tüm araçlar tek bir yerde.",
+    "items": [
+      { "title": "Tek Dokunuşla Takip", "desc": "Tek bir dokunuşla takma ve çıkarma işlemlerini kaydedin. Günlük takma düzeninizi zaman çizelgesinde görüntüleyin." },
+      { "title": "Akıllı Hatırlatıcılar", "desc": "Plaklarınız çok uzun süre dışarıda kaldığında bildirim alın. Erteleme desteği sayesinde doğru zamanda geri takmanızı sağlar." },
+      { "title": "İstatistikler", "desc": "Haftalık ve aylık grafiklerle takma alışkanlıklarınızı görselleştirin. Hedef başarısını ve ortalama çıkarma süresini takip edin." },
+      { "title": "Planlama Yönetimi", "desc": "Plak değiştirme programınızı otomatik olarak yönetin. Bir sonraki değişim tarihini asla kaçırmayın." },
+      { "title": "Widget'lar", "desc": "Ana Ekran veya Kilit Ekranından takma durumunuzu kontrol edin ve değiştirin. Canlı Etkinlikler desteklenir." },
+      { "title": "iCloud Yedekleme", "desc": "Verilerinizi iCloud ile güvenli bir şekilde senkronize edin. Birden fazla cihaz arasında sorunsuz veri paylaşımı." }
+    ]
+  },
+  "how": {
+    "title": "3 adımda başlayın",
+    "desc": "Kurulum bir dakikadan az sürer. Hemen takibe başlayın.",
+    "steps": [
+      { "title": "Ortodontik bilgilerinizi girin", "desc": "Başlangıç tarihinizi, toplam plak sayınızı ve değişim sıklığınızı ayarlayın. Şu anda hangi plakta olduğunuzu da girebilirsiniz." },
+      { "title": "Günlük kayıt yapmaya başlayın", "desc": "Plaklarınızı taktığınızda veya çıkardığınızda dokunmanız yeterli. Widget'ları da kullanabilirsiniz, böylece uygulamayı açmanıza bile gerek kalmaz." },
+      { "title": "Hatırlatıcılarla yolunda ilerleyin", "desc": "Plaklarınız çok uzun süre dışarıda kaldığında otomatik bildirimler alın. Doğal olarak daha iyi takma alışkanlıkları edinin." }
+    ]
+  },
+  "pro": {
+    "title": "Daha derin içgörüler,<br>esnek kontrol",
+    "desc": "Ortodontik yolculuğunuzu desteklemek için gelişmiş istatistikler, özelleştirilebilir bildirimler ve daha fazlasının kilidini açın.",
+    "trial": "<strong>7 günlük ücretsiz deneme.</strong> İstediğiniz zaman iptal edin.",
+    "items": [
+      { "title": "Detaylı İstatistikler", "desc": "Ortalama çıkarma süresi ve hedef başarısı günleri dahil olmak üzere derinlemesine verilere erişin." },
+      { "title": "Gelişmiş Bildirimler", "desc": "Günün farklı saatleri için farklı alarm zamanlamaları ayarlayın. Sabah, öğleden sonra ve akşam." },
+      { "title": "iCloud Yedekleme", "desc": "Verilerinizi iCloud'a güvenli bir şekilde yedekleyin. Cihazlar arasında otomatik olarak senkronize edilir." },
+      { "title": "Özel Programlar", "desc": "Her plak için takma günlerini özelleştirin. Ortodontik planınıza uygun esnek yönetim." }
+    ]
+  },
+  "languages": {
+    "title": "14 dilde mevcut",
+    "desc": "Dünyanın her yerindeki şeffaf plak kullanıcıları için geliştirildi.",
+    "tags": ["Türkçe", "English", "日本語", "Español", "Français", "Deutsch", "Italiano", "한국어", "简体中文", "繁體中文", "Português (BR)", "Português (PT)", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Bugün takibe<br>başlayın",
+    "desc": "İndirilmesi ücretsizdir. Ortodontik yolculuğunuzu daha akıllı hale getirin."
+  },
+  "footer": {
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "support": "Destek"
+  }
+}

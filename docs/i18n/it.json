@@ -1,0 +1,61 @@
+{
+  "lang": "it",
+  "nav": {
+    "features": "Funzionalità",
+    "how": "Come Funziona",
+    "pro": "Pro",
+    "support": "Supporto"
+  },
+  "hero": {
+    "badge": "App di gestione ortodontica per allineatori",
+    "title": "<span class=\"accent\">Non</span> dimenticare mai più.",
+    "desc": "Monitora il tempo di utilizzo del tuo allineatore senza sforzo. Registrazione con un tocco e promemoria intelligenti ti aiutano a rimanere in carreggiata con il tuo percorso ortodontico.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/it-it?size=250x83"
+  },
+  "features": {
+    "title": "Tutto ciò di cui hai bisogno<br>per il successo ortodontico",
+    "desc": "Dal monitoraggio dell'utilizzo ai promemoria e analisi. Tutti gli strumenti necessari per gestire il tuo percorso con gli allineatori in un unico posto.",
+    "items": [
+      { "title": "Monitoraggio con un Tocco", "desc": "Registra l'utilizzo e la rimozione con un singolo tocco. Visualizza il tuo modello di utilizzo giornaliero su una timeline." },
+      { "title": "Promemoria Intelligenti", "desc": "Ricevi notifiche quando i tuoi allineatori sono stati rimossi troppo a lungo. Il supporto snooze ti assicura di rimetterli al momento giusto." },
+      { "title": "Statistiche", "desc": "Visualizza le tue abitudini di utilizzo con grafici settimanali e mensili. Monitora il raggiungimento degli obiettivi e il tempo medio di rimozione." },
+      { "title": "Gestione del Programma", "desc": "Gestisci automaticamente il tuo programma di cambio allineatori. Non perdere mai la prossima data di cambio." },
+      { "title": "Widget", "desc": "Controlla e modifica il tuo stato di utilizzo dalla schermata Home o dalla schermata di blocco. Supporto per Live Activities." },
+      { "title": "Backup iCloud", "desc": "Sincronizza in modo sicuro i tuoi dati con iCloud. Condividi facilmente i dati su più dispositivi." }
+    ]
+  },
+  "how": {
+    "title": "Inizia in 3 passaggi",
+    "desc": "La configurazione richiede meno di un minuto. Inizia subito a monitorare.",
+    "steps": [
+      { "title": "Inserisci le tue informazioni ortodontiche", "desc": "Imposta la data di inizio, il numero totale di allineatori e la frequenza di cambio. Puoi anche inserire quale allineatore stai utilizzando attualmente." },
+      { "title": "Inizia a registrare quotidianamente", "desc": "Tocca semplicemente quando metti o togli i tuoi allineatori. Puoi anche usare i widget, quindi non è nemmeno necessario aprire l'app." },
+      { "title": "Rimani in carreggiata con i promemoria", "desc": "Ricevi notifiche automatiche quando i tuoi allineatori sono stati rimossi troppo a lungo. Sviluppa naturalmente migliori abitudini di utilizzo." }
+    ]
+  },
+  "pro": {
+    "title": "Approfondimenti maggiori,<br>controllo flessibile",
+    "desc": "Sblocca statistiche avanzate, notifiche personalizzabili e altro ancora per supportare il tuo percorso ortodontico.",
+    "trial": "<strong>Prova gratuita di 7 giorni.</strong> Annulla in qualsiasi momento.",
+    "items": [
+      { "title": "Statistiche Dettagliate", "desc": "Accedi a dati approfonditi incluso il tempo medio di rimozione e i giorni di raggiungimento degli obiettivi." },
+      { "title": "Notifiche Avanzate", "desc": "Imposta diversi orari di allarme per diversi momenti della giornata. Mattina, pomeriggio e sera." },
+      { "title": "Backup iCloud", "desc": "Esegui il backup sicuro dei tuoi dati su iCloud. Sincronizzato automaticamente su tutti i dispositivi." },
+      { "title": "Programmi Personalizzati", "desc": "Personalizza i giorni di utilizzo per allineatore. Gestione flessibile su misura per il tuo piano ortodontico." }
+    ]
+  },
+  "languages": {
+    "title": "Disponibile in 14 lingue",
+    "desc": "Creata per gli utenti di allineatori in tutto il mondo.",
+    "tags": ["Italiano", "English", "日本語", "Español", "Français", "Deutsch", "한국어", "简体中文", "繁體中文", "Português (BR)", "Português (PT)", "Türkçe", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Inizia a monitorare<br>oggi",
+    "desc": "Download gratuito. Rendi il tuo percorso ortodontico più intelligente."
+  },
+  "footer": {
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Condizioni d'Uso",
+    "support": "Supporto"
+  }
+}

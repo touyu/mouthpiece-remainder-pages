@@ -1,0 +1,61 @@
+{
+  "lang": "vi",
+  "nav": {
+    "features": "Tính năng",
+    "how": "Cách sử dụng",
+    "pro": "Pro",
+    "support": "Hỗ trợ"
+  },
+  "hero": {
+    "badge": "Ứng dụng quản lý chỉnh nha bằng khay trong suốt",
+    "title": "<span class=\"accent\">Không bao giờ</span> quên nữa.",
+    "desc": "Theo dõi thời gian đeo niềng răng trong suốt một cách dễ dàng. Ghi chép bằng một chạm và lời nhắc thông minh giúp bạn theo dõi hành trình chỉnh nha của mình.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/vi-vn?size=250x83"
+  },
+  "features": {
+    "title": "Mọi thứ bạn cần<br>cho sự thành công trong chỉnh nha",
+    "desc": "Từ theo dõi thời gian đeo đến lời nhắc và phân tích. Tất cả các công cụ bạn cần để quản lý hành trình niềng răng trong suốt của mình ở một nơi.",
+    "items": [
+      { "title": "Theo dõi bằng một chạm", "desc": "Ghi lại việc đeo và tháo niềng chỉ bằng một chạm. Xem lịch trình đeo hàng ngày của bạn trên dòng thời gian." },
+      { "title": "Lời nhắc thông minh", "desc": "Nhận thông báo khi niềng răng của bạn đã tháo ra quá lâu. Hỗ trợ hoãn lại đảm bảo bạn đeo lại đúng lúc." },
+      { "title": "Thống kê", "desc": "Hình dung thói quen đeo niềng của bạn bằng biểu đồ theo tuần và tháng. Theo dõi mức độ đạt mục tiêu và thời gian tháo trung bình." },
+      { "title": "Quản lý lịch trình", "desc": "Tự động quản lý lịch trình thay niềng răng. Không bao giờ bỏ lỡ ngày chuyển sang niềng tiếp theo." },
+      { "title": "Widget", "desc": "Kiểm tra và chuyển đổi trạng thái đeo từ Màn hình chính hoặc Màn hình khóa. Hỗ trợ Live Activities." },
+      { "title": "Sao lưu iCloud", "desc": "Đồng bộ dữ liệu của bạn một cách an toàn với iCloud. Chia sẻ dữ liệu liền mạch trên nhiều thiết bị." }
+    ]
+  },
+  "how": {
+    "title": "Bắt đầu trong 3 bước",
+    "desc": "Thiết lập chỉ mất chưa đến một phút. Bắt đầu theo dõi ngay lập tức.",
+    "steps": [
+      { "title": "Nhập thông tin chỉnh nha của bạn", "desc": "Đặt ngày bắt đầu, tổng số niềng răng và tần suất thay đổi. Bạn cũng có thể nhập niềng răng hiện tại bạn đang sử dụng." },
+      { "title": "Bắt đầu ghi chép hàng ngày", "desc": "Chỉ cần chạm khi bạn đeo hoặc tháo niềng răng. Bạn cũng có thể sử dụng widget, vì vậy bạn thậm chí không cần mở ứng dụng." },
+      { "title": "Theo dõi với lời nhắc", "desc": "Nhận thông báo tự động khi niềng răng của bạn đã tháo ra quá lâu. Hình thành thói quen đeo tốt hơn một cách tự nhiên." }
+    ]
+  },
+  "pro": {
+    "title": "Thông tin chi tiết hơn,<br>kiểm soát linh hoạt",
+    "desc": "Mở khóa thống kê nâng cao, thông báo tùy chỉnh và nhiều tính năng khác để hỗ trợ hành trình chỉnh nha của bạn.",
+    "trial": "<strong>Dùng thử miễn phí 7 ngày.</strong> Hủy bất cứ lúc nào.",
+    "items": [
+      { "title": "Thống kê chi tiết", "desc": "Truy cập dữ liệu chuyên sâu bao gồm thời gian tháo trung bình và số ngày đạt mục tiêu." },
+      { "title": "Thông báo nâng cao", "desc": "Đặt thời gian báo thức khác nhau cho các thời điểm khác nhau trong ngày. Buổi sáng, chiều và tối." },
+      { "title": "Sao lưu iCloud", "desc": "Sao lưu dữ liệu của bạn một cách an toàn lên iCloud. Tự động đồng bộ trên các thiết bị." },
+      { "title": "Lịch trình tùy chỉnh", "desc": "Tùy chỉnh số ngày đeo cho mỗi niềng răng. Quản lý linh hoạt phù hợp với kế hoạch chỉnh nha của bạn." }
+    ]
+  },
+  "languages": {
+    "title": "Hỗ trợ 14 ngôn ngữ",
+    "desc": "Được xây dựng cho người dùng niềng răng trong suốt trên toàn thế giới.",
+    "tags": ["Tiếng Việt", "English", "日本語", "Español", "Français", "Deutsch", "Italiano", "한국어", "简体中文", "繁體中文", "Português (BR)", "Português (PT)", "Türkçe", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Bắt đầu theo dõi<br>hôm nay",
+    "desc": "Miễn phí tải xuống. Làm cho hành trình chỉnh nha của bạn thông minh hơn."
+  },
+  "footer": {
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "support": "Hỗ trợ"
+  }
+}

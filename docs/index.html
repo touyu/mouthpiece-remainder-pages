@@ -63,7 +63,7 @@
             margin: 0 auto;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: flex-end;
         }
 
         .nav-logo {
@@ -76,6 +76,7 @@
 
         .nav-links {
             display: flex;
+            align-items: center;
             gap: 32px;
             list-style: none;
         }
@@ -130,7 +131,9 @@
             position: absolute;
             top: calc(100% + 8px);
             right: 0;
-            min-width: 140px;
+            min-width: 170px;
+            max-height: 400px;
+            overflow-y: auto;
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: 10px;
@@ -181,7 +184,7 @@
         }
 
         .hero-content {
-            max-width: 720px;
+            max-width: 100%;
         }
 
         .hero-badge {
@@ -202,6 +205,7 @@
             letter-spacing: -0.04em;
             line-height: 1.05;
             margin-bottom: 24px;
+            white-space: nowrap;
         }
 
         .hero h1 .accent {
@@ -212,7 +216,7 @@
             font-size: clamp(18px, 2.5vw, 22px);
             color: var(--text-secondary);
             line-height: 1.6;
-            max-width: 540px;
+            max-width: 600px;
             margin: 0 auto 48px;
         }
 
@@ -609,7 +613,6 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-inner">
-            <a href="#" class="nav-logo">Aligner</a>
             <ul class="nav-links">
                 <li><a href="#features" data-i18n="nav.features"></a></li>
                 <li><a href="#how" data-i18n="nav.how"></a></li>
@@ -631,7 +634,7 @@
     <section class="hero">
         <div class="hero-content fade-in">
             <div class="hero-badge" data-i18n="hero.badge"></div>
-            <h1 style="white-space: nowrap;" data-i18n-html="hero.title"></h1>
+            <h1 data-i18n-html="hero.title"></h1>
             <p data-i18n="hero.desc"></p>
             <div class="cta-group">
                 <a href="https://apps.apple.com/us/app/aligner-reminder/id6758906301" target="_blank" rel="noopener noreferrer">
@@ -815,7 +818,6 @@
     <!-- Footer -->
     <footer>
         <div class="footer-inner">
-            <p class="footer-copy">Aligner</p>
             <ul class="footer-links">
                 <li><a href="privacy.html" data-i18n="footer.privacy"></a></li>
                 <li><a href="terms.html" data-i18n="footer.terms"></a></li>
@@ -829,14 +831,44 @@
             // Available languages — add new entries here to support more languages
             var LANGS = [
                 { code: 'en', label: 'English' },
-                { code: 'ja', label: '日本語' }
+                { code: 'ja', label: '日本語' },
+                { code: 'es', label: 'Español' },
+                { code: 'fr', label: 'Français' },
+                { code: 'de', label: 'Deutsch' },
+                { code: 'it', label: 'Italiano' },
+                { code: 'ko', label: '한국어' },
+                { code: 'zh-Hans', label: '简体中文' },
+                { code: 'zh-Hant', label: '繁體中文' },
+                { code: 'pt-BR', label: 'Português (BR)' },
+                { code: 'pt-PT', label: 'Português (PT)' },
+                { code: 'tr', label: 'Türkçe' },
+                { code: 'vi', label: 'Tiếng Việt' },
+                { code: 'th', label: 'ภาษาไทย' }
             ];
 
-            // Determine language
+            // Determine language from localStorage, browser setting, or fallback to 'en'
             var stored = localStorage.getItem('lang');
-            var lang = stored || (/^ja\b/.test(navigator.language) ? 'ja' : 'en');
-            // Ensure lang is valid
-            if (!LANGS.some(function (l) { return l.code === lang; })) lang = 'en';
+            var lang;
+            if (stored && LANGS.some(function (l) { return l.code === stored; })) {
+                lang = stored;
+            } else {
+                var navLang = navigator.language || navigator.userLanguage || '';
+                // Map browser language to our supported codes
+                if (/^ja\b/i.test(navLang)) lang = 'ja';
+                else if (/^ko\b/i.test(navLang)) lang = 'ko';
+                else if (/^th\b/i.test(navLang)) lang = 'th';
+                else if (/^vi\b/i.test(navLang)) lang = 'vi';
+                else if (/^tr\b/i.test(navLang)) lang = 'tr';
+                else if (/^de\b/i.test(navLang)) lang = 'de';
+                else if (/^fr\b/i.test(navLang)) lang = 'fr';
+                else if (/^it\b/i.test(navLang)) lang = 'it';
+                else if (/^es\b/i.test(navLang)) lang = 'es';
+                else if (/^zh-Hant/i.test(navLang) || /^zh.*TW/i.test(navLang) || /^zh.*HK/i.test(navLang)) lang = 'zh-Hant';
+                else if (/^zh/i.test(navLang)) lang = 'zh-Hans';
+                else if (/^pt-BR/i.test(navLang) || /^pt.*BR/i.test(navLang)) lang = 'pt-BR';
+                else if (/^pt/i.test(navLang)) lang = 'pt-PT';
+                else lang = 'en';
+            }
 
             fetch('i18n/' + lang + '.json')
                 .then(function (r) { return r.json(); })

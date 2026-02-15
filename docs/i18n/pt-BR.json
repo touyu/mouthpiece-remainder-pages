@@ -1,0 +1,61 @@
+{
+  "lang": "pt-BR",
+  "nav": {
+    "features": "Recursos",
+    "how": "Como Funciona",
+    "pro": "Pro",
+    "support": "Suporte"
+  },
+  "hero": {
+    "badge": "App de gestão ortodôntica com alinhadores",
+    "title": "<span class=\"accent\">Nunca</span> esqueça novamente.",
+    "desc": "Acompanhe o tempo de uso do seu alinhador sem esforço. Registro com um toque e lembretes inteligentes ajudam você a seguir sua jornada ortodôntica.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/pt-br?size=250x83"
+  },
+  "features": {
+    "title": "Tudo o que você precisa<br>para o sucesso ortodôntico",
+    "desc": "Desde rastreamento de uso até lembretes e análises. Todas as ferramentas necessárias para gerenciar sua jornada com alinhadores em um só lugar.",
+    "items": [
+      { "title": "Rastreamento com Um Toque", "desc": "Registre o uso e remoção com apenas um toque. Visualize seu padrão de uso diário em uma linha do tempo." },
+      { "title": "Lembretes Inteligentes", "desc": "Seja notificado quando seus alinhadores estiverem fora por muito tempo. O suporte à soneca garante que você os coloque de volta no momento certo." },
+      { "title": "Estatísticas", "desc": "Visualize seus hábitos de uso com gráficos semanais e mensais. Acompanhe o alcance de metas e o tempo médio de remoção." },
+      { "title": "Gerenciamento de Agenda", "desc": "Gerencie automaticamente sua programação de troca de alinhadores. Nunca perca sua próxima data de troca." },
+      { "title": "Widgets", "desc": "Verifique e alterne seu status de uso na Tela Inicial ou Tela de Bloqueio. Atividades ao Vivo suportadas." },
+      { "title": "Backup no iCloud", "desc": "Sincronize seus dados com segurança no iCloud. Compartilhe dados perfeitamente entre vários dispositivos." }
+    ]
+  },
+  "how": {
+    "title": "Comece em 3 passos",
+    "desc": "A configuração leva menos de um minuto. Comece a rastrear imediatamente.",
+    "steps": [
+      { "title": "Insira suas informações ortodônticas", "desc": "Defina sua data de início, número total de alinhadores e frequência de troca. Você também pode informar qual alinhador está usando atualmente." },
+      { "title": "Comece a registrar diariamente", "desc": "Apenas toque quando colocar ou tirar seus alinhadores. Você também pode usar widgets, sem precisar abrir o aplicativo." },
+      { "title": "Mantenha-se no caminho certo com lembretes", "desc": "Receba notificações automáticas quando seus alinhadores estiverem fora por muito tempo. Construa melhores hábitos de uso naturalmente." }
+    ]
+  },
+  "pro": {
+    "title": "Insights mais profundos,<br>controle flexível",
+    "desc": "Desbloqueie estatísticas avançadas, notificações personalizáveis e muito mais para apoiar sua jornada ortodôntica.",
+    "trial": "<strong>Teste grátis de 7 dias.</strong> Cancele a qualquer momento.",
+    "items": [
+      { "title": "Estatísticas Detalhadas", "desc": "Acesse dados aprofundados, incluindo tempo médio de remoção e dias de alcance de metas." },
+      { "title": "Notificações Avançadas", "desc": "Defina diferentes horários de alarme para diferentes momentos do dia. Manhã, tarde e noite." },
+      { "title": "Backup no iCloud", "desc": "Faça backup seguro dos seus dados no iCloud. Sincronizado automaticamente entre dispositivos." },
+      { "title": "Agendas Personalizadas", "desc": "Personalize os dias de uso por alinhador. Gerenciamento flexível adaptado ao seu plano ortodôntico." }
+    ]
+  },
+  "languages": {
+    "title": "Disponível em 14 idiomas",
+    "desc": "Feito para usuários de alinhadores ao redor do mundo.",
+    "tags": ["Português (BR)", "English", "日本語", "Español", "Français", "Deutsch", "Italiano", "한국어", "简体中文", "繁體中文", "Português (PT)", "Türkçe", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Comece a rastrear<br>hoje",
+    "desc": "Download gratuito. Torne sua jornada ortodôntica mais inteligente."
+  },
+  "footer": {
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "support": "Suporte"
+  }
+}

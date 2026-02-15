@@ -1,0 +1,61 @@
+{
+  "lang": "fr",
+  "nav": {
+    "features": "Fonctionnalités",
+    "how": "Comment ça marche",
+    "pro": "Pro",
+    "support": "Assistance"
+  },
+  "hero": {
+    "badge": "App de gestion d'orthodontie par aligneurs",
+    "title": "<span class=\"accent\">N'oubliez</span> plus jamais.",
+    "desc": "Suivez facilement le temps de port de vos aligneurs. Enregistrement en un clic et rappels intelligents pour rester sur la bonne voie dans votre parcours orthodontique.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin<br>pour réussir votre orthodontie",
+    "desc": "Du suivi du port aux rappels et analyses. Tous les outils pour gérer votre parcours d'aligneurs en un seul endroit.",
+    "items": [
+      { "title": "Suivi en un clic", "desc": "Enregistrez le port et le retrait d'un simple clic. Visualisez votre schéma de port quotidien sur une chronologie." },
+      { "title": "Rappels intelligents", "desc": "Recevez des notifications lorsque vos aligneurs sont retirés depuis trop longtemps. La fonction de report vous assure de les remettre au bon moment." },
+      { "title": "Statistiques", "desc": "Visualisez vos habitudes de port avec des graphiques hebdomadaires et mensuels. Suivez l'atteinte de vos objectifs et le temps moyen de retrait." },
+      { "title": "Gestion du calendrier", "desc": "Gérez automatiquement votre calendrier de changement d'aligneurs. Ne ratez jamais votre prochaine date de changement." },
+      { "title": "Widgets", "desc": "Consultez et modifiez votre statut de port depuis l'écran d'accueil ou l'écran de verrouillage. Compatible avec Live Activities." },
+      { "title": "Sauvegarde iCloud", "desc": "Synchronisez vos données en toute sécurité avec iCloud. Partagez vos données de manière transparente entre plusieurs appareils." }
+    ]
+  },
+  "how": {
+    "title": "Commencez en 3 étapes",
+    "desc": "La configuration prend moins d'une minute. Commencez à suivre immédiatement.",
+    "steps": [
+      { "title": "Entrez vos informations orthodontiques", "desc": "Définissez votre date de début, le nombre total d'aligneurs et la fréquence de changement. Vous pouvez également indiquer quel aligneur vous portez actuellement." },
+      { "title": "Commencez à enregistrer quotidiennement", "desc": "Appuyez simplement lorsque vous mettez ou retirez vos aligneurs. Vous pouvez également utiliser des widgets, vous n'avez même pas besoin d'ouvrir l'application." },
+      { "title": "Restez sur la bonne voie avec les rappels", "desc": "Recevez des notifications automatiques lorsque vos aligneurs sont retirés depuis trop longtemps. Développez naturellement de meilleures habitudes de port." }
+    ]
+  },
+  "pro": {
+    "title": "Analyses approfondies,<br>contrôle flexible",
+    "desc": "Débloquez des statistiques avancées, des notifications personnalisables et bien plus encore pour accompagner votre parcours orthodontique.",
+    "trial": "<strong>Essai gratuit de 7 jours.</strong> Annulez à tout moment.",
+    "items": [
+      { "title": "Statistiques détaillées", "desc": "Accédez à des données approfondies incluant le temps moyen de retrait et les jours d'atteinte des objectifs." },
+      { "title": "Notifications avancées", "desc": "Définissez différents horaires d'alarme selon les moments de la journée. Matin, après-midi et soir." },
+      { "title": "Sauvegarde iCloud", "desc": "Sauvegardez vos données en toute sécurité sur iCloud. Synchronisation automatique entre appareils." },
+      { "title": "Calendriers personnalisés", "desc": "Personnalisez les jours de port par aligneur. Gestion flexible adaptée à votre plan orthodontique." }
+    ]
+  },
+  "languages": {
+    "title": "Disponible en 14 langues",
+    "desc": "Conçu pour les utilisateurs d'aligneurs du monde entier.",
+    "tags": ["Français", "English", "日本語", "Español", "Deutsch", "Italiano", "한국어", "简体中文", "繁體中文", "Português (BR)", "Português (PT)", "Türkçe", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Commencez à suivre<br>dès aujourd'hui",
+    "desc": "Téléchargement gratuit. Rendez votre parcours orthodontique plus intelligent."
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "support": "Assistance"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "lang": "pt-PT",
+  "nav": {
+    "features": "Funcionalidades",
+    "how": "Como Funciona",
+    "pro": "Pro",
+    "support": "Suporte"
+  },
+  "hero": {
+    "badge": "App de gestão ortodôntica com alinhadores",
+    "title": "<span class=\"accent\">Nunca mais</span> se esqueça.",
+    "desc": "Registe o tempo de uso dos seus alinhadores sem esforço. Registo num toque e lembretes inteligentes ajudam-no a manter-se no caminho certo no seu tratamento ortodôntico.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/pt-pt?size=250x83"
+  },
+  "features": {
+    "title": "Tudo o que precisa<br>para o sucesso ortodôntico",
+    "desc": "Do registo de uso a lembretes e análises. Todas as ferramentas necessárias para gerir o seu tratamento com alinhadores num só lugar.",
+    "items": [
+      { "title": "Registo num Toque", "desc": "Registe a colocação e remoção com um único toque. Visualize o seu padrão de uso diário numa linha temporal." },
+      { "title": "Lembretes Inteligentes", "desc": "Receba notificações quando os seus alinhadores estiverem fora durante muito tempo. O suporte de suspensão garante que os volte a colocar na hora certa." },
+      { "title": "Estatísticas", "desc": "Visualize os seus hábitos de uso com gráficos semanais e mensais. Acompanhe o cumprimento de objetivos e o tempo médio de remoção." },
+      { "title": "Gestão de Calendário", "desc": "Gira automaticamente o calendário de mudança de alinhadores. Nunca perca a data da próxima troca." },
+      { "title": "Widgets", "desc": "Consulte e altere o estado de uso a partir do ecrã inicial ou do ecrã de bloqueio. Suporte para Live Activities." },
+      { "title": "Cópia de Segurança iCloud", "desc": "Sincronize os seus dados de forma segura com o iCloud. Partilhe dados entre vários dispositivos sem esforço." }
+    ]
+  },
+  "how": {
+    "title": "Comece em 3 passos",
+    "desc": "A configuração demora menos de um minuto. Comece a registar imediatamente.",
+    "steps": [
+      { "title": "Introduza as suas informações ortodônticas", "desc": "Defina a data de início, o número total de alinhadores e a frequência de mudança. Também pode introduzir o alinhador que está a usar atualmente." },
+      { "title": "Comece a registar diariamente", "desc": "Basta tocar quando colocar ou remover os seus alinhadores. Também pode usar widgets, pelo que nem precisa de abrir a aplicação." },
+      { "title": "Mantenha-se no caminho certo com lembretes", "desc": "Receba notificações automáticas quando os seus alinhadores estiverem fora durante muito tempo. Desenvolva melhores hábitos de uso naturalmente." }
+    ]
+  },
+  "pro": {
+    "title": "Análises aprofundadas,<br>controlo flexível",
+    "desc": "Desbloqueie estatísticas avançadas, notificações personalizáveis e muito mais para apoiar o seu tratamento ortodôntico.",
+    "trial": "<strong>Teste gratuito de 7 dias.</strong> Cancele a qualquer momento.",
+    "items": [
+      { "title": "Estatísticas Detalhadas", "desc": "Aceda a dados aprofundados, incluindo tempo médio de remoção e dias de cumprimento de objetivos." },
+      { "title": "Notificações Avançadas", "desc": "Defina diferentes horários de alarme para diferentes alturas do dia. Manhã, tarde e noite." },
+      { "title": "Cópia de Segurança iCloud", "desc": "Faça cópias de segurança dos seus dados no iCloud com segurança. Sincronizado automaticamente entre dispositivos." },
+      { "title": "Calendários Personalizados", "desc": "Personalize os dias de uso por alinhador. Gestão flexível adaptada ao seu plano ortodôntico." }
+    ]
+  },
+  "languages": {
+    "title": "Disponível em 14 idiomas",
+    "desc": "Criado para utilizadores de alinhadores em todo o mundo.",
+    "tags": ["Português (PT)", "English", "日本語", "Español", "Français", "Deutsch", "Italiano", "한국어", "简体中文", "繁體中文", "Português (BR)", "Türkçe", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Comece a registar<br>hoje",
+    "desc": "Transferência gratuita. Torne o seu tratamento ortodôntico mais inteligente."
+  },
+  "footer": {
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Utilização",
+    "support": "Suporte"
+  }
+}

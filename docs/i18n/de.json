@@ -1,0 +1,61 @@
+{
+  "lang": "de",
+  "nav": {
+    "features": "Funktionen",
+    "how": "So funktioniert's",
+    "pro": "Pro",
+    "support": "Support"
+  },
+  "hero": {
+    "badge": "Aligner-Kieferorthopädie Management-App",
+    "title": "<span class=\"accent\">Nie</span> wieder vergessen.",
+    "desc": "Verfolgen Sie Ihre Aligner-Tragezeit mühelos. Ein-Tap-Protokollierung und intelligente Erinnerungen helfen Ihnen, auf Kurs zu bleiben.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/de-de?size=250x83"
+  },
+  "features": {
+    "title": "Alles, was Sie brauchen<br>für den Erfolg Ihrer Zahnkorrektur",
+    "desc": "Von der Tragedauer-Erfassung über Erinnerungen bis hin zu Analysen. Alle Werkzeuge für Ihre Aligner-Behandlung an einem Ort.",
+    "items": [
+      { "title": "Ein-Tap-Tracking", "desc": "Erfassen Sie das Einsetzen und Herausnehmen mit nur einem Tap. Sehen Sie Ihr tägliches Tragemuster in einer Zeitleiste." },
+      { "title": "Intelligente Erinnerungen", "desc": "Werden Sie benachrichtigt, wenn Ihre Aligner zu lange draußen sind. Snooze-Funktion sorgt dafür, dass Sie sie zur richtigen Zeit wieder einsetzen." },
+      { "title": "Statistiken", "desc": "Visualisieren Sie Ihre Tragegewohnheiten mit wöchentlichen und monatlichen Diagrammen. Verfolgen Sie Zielerreichung und durchschnittliche Entnahmezeit." },
+      { "title": "Terminverwaltung", "desc": "Verwalten Sie Ihren Aligner-Wechselplan automatisch. Verpassen Sie nie Ihren nächsten Wechseltermin." },
+      { "title": "Widgets", "desc": "Prüfen und ändern Sie Ihren Tragestatus vom Home-Bildschirm oder Sperrbildschirm aus. Live Activities werden unterstützt." },
+      { "title": "iCloud-Backup", "desc": "Synchronisieren Sie Ihre Daten sicher mit iCloud. Nahtloser Datenaustausch zwischen mehreren Geräten." }
+    ]
+  },
+  "how": {
+    "title": "In 3 Schritten starten",
+    "desc": "Die Einrichtung dauert weniger als eine Minute. Beginnen Sie sofort mit der Erfassung.",
+    "steps": [
+      { "title": "Geben Sie Ihre Behandlungsinformationen ein", "desc": "Legen Sie Ihr Startdatum, die Gesamtanzahl der Aligner und die Wechselhäufigkeit fest. Sie können auch eingeben, welchen Aligner Sie gerade tragen." },
+      { "title": "Beginnen Sie mit der täglichen Protokollierung", "desc": "Tippen Sie einfach, wenn Sie Ihre Aligner einsetzen oder herausnehmen. Sie können auch Widgets verwenden, sodass Sie die App nicht einmal öffnen müssen." },
+      { "title": "Bleiben Sie auf Kurs mit Erinnerungen", "desc": "Erhalten Sie automatische Benachrichtigungen, wenn Ihre Aligner zu lange draußen sind. Entwickeln Sie ganz natürlich bessere Tragegewohnheiten." }
+    ]
+  },
+  "pro": {
+    "title": "Tiefere Einblicke,<br>flexible Kontrolle",
+    "desc": "Schalten Sie erweiterte Statistiken, anpassbare Benachrichtigungen und mehr frei, um Ihre Behandlung zu unterstützen.",
+    "trial": "<strong>7 Tage kostenlos testen.</strong> Jederzeit kündbar.",
+    "items": [
+      { "title": "Detaillierte Statistiken", "desc": "Greifen Sie auf ausführliche Daten zu, einschließlich durchschnittlicher Entnahmezeit und Tagen mit Zielerreichung." },
+      { "title": "Erweiterte Benachrichtigungen", "desc": "Legen Sie verschiedene Alarmzeiten für verschiedene Tageszeiten fest. Morgen, Nachmittag und Abend." },
+      { "title": "iCloud-Backup", "desc": "Sichern Sie Ihre Daten sicher in iCloud. Automatisch über Geräte hinweg synchronisiert." },
+      { "title": "Individuelle Zeitpläne", "desc": "Passen Sie die Tragetage pro Aligner an. Flexible Verwaltung für Ihren individuellen Behandlungsplan." }
+    ]
+  },
+  "languages": {
+    "title": "Verfügbar in 14 Sprachen",
+    "desc": "Entwickelt für Aligner-Nutzer weltweit.",
+    "tags": ["Deutsch", "English", "日本語", "Español", "Français", "Italiano", "한국어", "简体中文", "繁體中文", "Português (BR)", "Português (PT)", "Türkçe", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Starten Sie heute<br>mit der Erfassung",
+    "desc": "Kostenloser Download. Machen Sie Ihre Zahnkorrektur intelligenter."
+  },
+  "footer": {
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support"
+  }
+}

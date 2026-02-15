@@ -1,0 +1,61 @@
+{
+  "lang": "es",
+  "nav": {
+    "features": "Funciones",
+    "how": "Cómo Funciona",
+    "pro": "Pro",
+    "support": "Soporte"
+  },
+  "hero": {
+    "badge": "App de gestión de ortodoncia con alineadores",
+    "title": "<span class=\"accent\">Nunca</span> lo olvides de nuevo.",
+    "desc": "Registra el tiempo de uso de tus alineadores sin esfuerzo. Registro con un toque y recordatorios inteligentes te ayudan a mantenerte en el camino de tu tratamiento de ortodoncia.",
+    "storeBadge": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/es-es?size=250x83"
+  },
+  "features": {
+    "title": "Todo lo que necesitas<br>para el éxito de tu ortodoncia",
+    "desc": "Desde el seguimiento de uso hasta recordatorios y análisis. Todas las herramientas que necesitas para gestionar tu tratamiento de alineadores en un solo lugar.",
+    "items": [
+      { "title": "Registro con Un Toque", "desc": "Registra la colocación y extracción con un solo toque. Visualiza tu patrón de uso diario en una línea de tiempo." },
+      { "title": "Recordatorios Inteligentes", "desc": "Recibe notificaciones cuando tus alineadores hayan estado fuera demasiado tiempo. El soporte de posponer te asegura que te los vuelvas a poner en el momento adecuado." },
+      { "title": "Estadísticas", "desc": "Visualiza tus hábitos de uso con gráficos semanales y mensuales. Rastrea el logro de objetivos y el tiempo promedio de extracción." },
+      { "title": "Gestión de Calendario", "desc": "Gestiona automáticamente el calendario de cambio de tus alineadores. Nunca te pierdas la fecha de tu próximo cambio." },
+      { "title": "Widgets", "desc": "Consulta y cambia tu estado de uso desde la Pantalla de Inicio o la Pantalla de Bloqueo. Compatible con Live Activities." },
+      { "title": "Copia de Seguridad en iCloud", "desc": "Sincroniza tus datos de forma segura con iCloud. Comparte datos sin problemas entre múltiples dispositivos." }
+    ]
+  },
+  "how": {
+    "title": "Empieza en 3 pasos",
+    "desc": "La configuración toma menos de un minuto. Empieza a registrar de inmediato.",
+    "steps": [
+      { "title": "Ingresa tu información de ortodoncia", "desc": "Configura tu fecha de inicio, número total de alineadores y frecuencia de cambio. También puedes ingresar en qué alineador te encuentras actualmente." },
+      { "title": "Comienza a registrar diariamente", "desc": "Simplemente toca cuando te pongas o te quites los alineadores. También puedes usar widgets, así que ni siquiera necesitas abrir la app." },
+      { "title": "Mantente en el camino con recordatorios", "desc": "Recibe notificaciones automáticas cuando tus alineadores hayan estado fuera demasiado tiempo. Desarrolla mejores hábitos de uso de forma natural." }
+    ]
+  },
+  "pro": {
+    "title": "Información más profunda,<br>control flexible",
+    "desc": "Desbloquea estadísticas avanzadas, notificaciones personalizables y más para apoyar tu tratamiento de ortodoncia.",
+    "trial": "<strong>Prueba gratuita de 7 días.</strong> Cancela en cualquier momento.",
+    "items": [
+      { "title": "Estadísticas Detalladas", "desc": "Accede a datos en profundidad incluyendo tiempo promedio de extracción y días de logro de objetivos." },
+      { "title": "Notificaciones Avanzadas", "desc": "Configura diferentes horarios de alarma para diferentes momentos del día. Mañana, tarde y noche." },
+      { "title": "Copia de Seguridad en iCloud", "desc": "Respalda tus datos de forma segura en iCloud. Sincronización automática entre dispositivos." },
+      { "title": "Calendarios Personalizados", "desc": "Personaliza los días de uso por alineador. Gestión flexible adaptada a tu plan de ortodoncia." }
+    ]
+  },
+  "languages": {
+    "title": "Disponible en 14 idiomas",
+    "desc": "Creado para usuarios de alineadores en todo el mundo.",
+    "tags": ["Español", "English", "日本語", "Français", "Deutsch", "Italiano", "한국어", "简体中文", "繁體中文", "Português (BR)", "Português (PT)", "Türkçe", "Tiếng Việt", "ภาษาไทย"]
+  },
+  "cta": {
+    "title": "Empieza a registrar<br>hoy",
+    "desc": "Descarga gratuita. Haz que tu tratamiento de ortodoncia sea más inteligente."
+  },
+  "footer": {
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "support": "Soporte"
+  }
+}
