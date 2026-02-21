@@ -1,13 +1,13 @@
-# mouthpiece-remainder-pages
+# minder-pages
 
 Alignerアプリのランディングページ・利用規約・プライバシーポリシー・サポートページをホスティングするためのリポジトリ。
 
 ## URL
 
-- ランディングページ: https://touyu.me/mouthpiece-remainder-pages/
-- プライバシーポリシー: https://touyu.me/mouthpiece-remainder-pages/privacy
-- 利用規約: https://touyu.me/mouthpiece-remainder-pages/terms
-- サポート: https://touyu.me/mouthpiece-remainder-pages/support
+- ランディングページ: https://aligner.touyu.me/
+- プライバシーポリシー: https://aligner.touyu.me/privacy
+- 利用規約: https://aligner.touyu.me/terms
+- サポート: https://aligner.touyu.me/support
 
 ## ファイル構成
 
